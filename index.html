@@ -204,7 +204,7 @@ function saveToLocalStorage() {
   localStorage.setItem('accounts', JSON.stringify(accounts));
 
   // Send backup to Google Sheets
-  fetch("https://script.google.com/macros/s/AKfycbyBzOwKONUM-_kGUZhNPkqm1rwusaQK8g_pqWwg-Bxz9eF9adSbzlkcP6p6MK1yY8K2NA/exec", {
+  fetch("https://script.google.com/macros/s/AKfycbw1qGYULjFxUDQuZLDb1v9b0NGo2Tcj8BZEqqp0YYPuwN-lP_ZTnHR6kuCJY3p-0w0gUg/exec", {
     method: "POST",
     headers: {
       "Content-Type": "application/json"
